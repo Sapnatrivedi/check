@@ -1,13 +1,215 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.head {
+	background-color: white !important;
+}
+.bg_image {
+	background: url('./images/jeswin-thomas-wRdYnqXtyYk-unsplash.jpg');
+	width: 100%;
+	height: 140vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg_image1 {
+	background-image: url('https://preview.colorlib.com/theme/edusmart/img/xfeatures-bg1.jpg.pagespeed.ic.bLGhWwbpxp.jpg');
+	width: 100%;
+	height: 140vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg_image2 {
+	background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	width: 100%;
+	height: 110vh;
+}
+.cont {
+	margin-top: 20% !important;
+}
+h1 {
+	color: white;
+	font-size: 100%;
+}
+.p1 {
+	color: white;
+}
+.card1 {
+	background-image: linear-gradient(to right, #e94086, #e5925a);
+	border: none !important;
+}
+.card2 {
+	background-image: linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	border: none !important;
+}
+.card3 {
+	background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	border: none !important;
+}
+.form-control1 {
+	background-color: #ffffff20 !important;
+	border: 0 !important;
+	height: 60px;
+}
+.but1 {
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	border: none;
+	padding: 8px 25px;
+	position: relative;
+	right: 40px;
+	top: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+.back_ground {
+	background: #f9f9f9 !important;
+	padding: 40px 20px;
+	margin-bottom: 10px;
+	border: none !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.back_ground:hover {
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%) !important;
+	color: white;
+}
+
+h4 {
+	color: #777770;
+}
+.mar1 {
+	margin-top: 100px;
+}
+.but2 {
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background-size: 200% auto;
+	padding: 0px 38px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 50px;
+	border-radius: 0px;
+	box-shadow: 0px 20px 50px rgb(0 175 224 / 30%);
+	border: none !important;
+}
+.popular {
+	padding: 120px 0 90px;
+}
+.popular1 {
+	padding: 120px 0 5px;
+}
+.lite {
+	background: #f9f9f9;
+}
+.hov:hover {
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	color: white;
+	cursor: pointer;
+}
+@media (min-width: 1024px) {
+	.make-zag {
+		margin-top: 30px;
+	}
+}
+@media (min-width: 1024px) {
+	.mar2 {
+		margin-top: -30px;
+	}
+}
+.gap {
+	padding: 60px 0px;
+}
+
+.main_title {
+	text-align: center;
+	margin-bottom: 75px;
+}
+.but3 {
+	color: white;
+	background-image: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	border: none;
+	padding: 7px 20px;
+}
+.card4 {
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	border: 0 !important;
+	cursor: pointer;
+}
+.card4:hover {
+	border: 1px solid white !important;
+}
+@media (min-width: 320px) {
+	.bg_image1 {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 320px) {
+	.but1 {
+		left: 0px;
+		top: 0px;
+		padding: 19px;
+	}
+}
+.pad_img {
+	padding: 5px;
+}
+@media (max-width: 320px) {
+	.img4 {
+		width: 50px;
+	}
+}
+.clock_sec {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 40px 20px;
+	margin-right: 15px;
+	text-align: center;
+	border: 1px solid #66e9eb;
+	border-radius: 5px;
+	margin-top: 65px;
+}
+.register {
+	background-color: #fff;
+}
+
+.gap1 {
+	padding: 90px 0;
+}
+.clock_sec1 {
+	color: #fff;
+}
+.register_form {
+	background: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.register_form input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+	padding: 12px;
+}
+.register_form .primary-btn {
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.primary-btn {
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%) !important;
+	background-size: 200% auto;
+	padding: 0px 38px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 50px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: 0px 20px 50px rgb(0 175 224 / 30%);
+	text-align: center;
+}
+.single {
+	margin-bottom: 30px;
+}
+.foot {
+	background-color: black !important;
 }
